@@ -1,0 +1,35 @@
+
+body 
+{
+    font-size: 60px;
+    margin-left: 100px;
+}
+a:link 
+{
+    color: #8D87FD;
+}
+a:visited 
+{
+    color: #00B896;
+}
+a:hover 
+{
+    background-color: antiquewhite;
+}
+p:not(.maravillas) 
+{
+    color: brown;
+}
+
+.container div:nth-child(1) 
+{
+    color: #fc2f00;
+}
+.container div:nth-child(2) 
+{
+    color: cyan;
+} 
+.container div:nth-child(3) 
+{
+    color: darkblue;
+}

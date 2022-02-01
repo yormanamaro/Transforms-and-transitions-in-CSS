@@ -1,0 +1,13 @@
+body 
+{
+    font-size: 60px;
+    margin-left: 100px;
+}
+div::before 
+{
+    content: "🚀";
+}
+div::after 
+{
+    content: "💻";
+}
