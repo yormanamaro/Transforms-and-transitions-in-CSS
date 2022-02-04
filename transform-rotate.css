@@ -1,0 +1,24 @@
+.rotate 
+{
+    width: 100px;
+    height: 150px;
+    margin: 30px;
+    background: rgb(224, 149, 56);
+    border-radius: 10px;
+}
+.rotate:hover 
+{
+    transform: rotate(25deg);
+}
+.rotate-two 
+{
+    width: 100px;
+    height: 150px;
+    margin: 30px;
+    background: rgb(224, 149, 56);
+    border-radius: 10px;
+}
+.rotate-two:hover 
+{
+    transform: rotateY(50deg);
+}

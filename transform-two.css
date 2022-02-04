@@ -1,0 +1,48 @@
+.circle
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(113,44,44,1) 44%, rgba(252,176,69,1) 100%);
+}
+.circle2
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(113,44,44,1) 44%, rgba(252,176,69,1) 100%);
+}
+.circle3
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(113,44,44,1) 44%, rgba(252,176,69,1) 100%);
+}
+.circle4
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(113,44,44,1) 44%, rgba(252,176,69,1) 100%);
+}
+.circle:hover 
+{
+    transform: scale(1.2);
+}
+.circle2:hover 
+{
+    transform: scale(0.8);
+}
+.circle3:hover 
+{
+    transform: scaleX(1.2);
+}
+.circle4:hover 
+{
+    transform: scaleY(1.2);
+}
