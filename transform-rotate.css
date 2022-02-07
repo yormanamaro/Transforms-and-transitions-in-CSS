@@ -5,6 +5,7 @@
     margin: 30px;
     background: rgb(224, 149, 56);
     border-radius: 10px;
+    transform-origin: left top;
 }
 .rotate:hover 
 {
@@ -17,6 +18,7 @@
     margin: 30px;
     background: rgb(224, 149, 56);
     border-radius: 10px;
+    transform-origin: right top;
 }
 .rotate-two:hover 
 {
