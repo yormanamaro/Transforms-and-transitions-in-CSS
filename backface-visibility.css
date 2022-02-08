@@ -1,0 +1,28 @@
+.card
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+}
+.card:hover 
+{
+    transform: rotateY(180deg);
+}
+.face
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+}
+.face.front
+{
+    background: cadetblue;
+}
+.face.back
+{
+    background: darkorange;
+    transform: rotateX(180deg);
+}
