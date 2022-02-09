@@ -1,0 +1,34 @@
+.container
+{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    margin: 30px;
+    background: grey;
+    justify-content: space-between;
+}
+.container:hover .box
+{
+    transform: scale(1.2);
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    background: wheat;
+}
+.box1
+{
+    background: lightcoral;
+    transition: transform 500ms;
+}
+.box2
+{
+    background: salmon;
+    transition: transform 200ms;
+}
+.box3
+{
+    background: darksalmon;
+    transition: transform 50ms;
+}
